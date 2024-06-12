@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+body {
+    font-family: 'Zen Antique Soft';
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: #9b59c9;
+    background-color: #efe0ff;
+    border-style: groove;
+    font-family: serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: #9b59c9;
+    color: #efe0ff;
+    border: 2px solid #efe0ff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #efe0ff;
+    color: #9b59c9;
+}
+
+body {
+    background: url(Cloud\ BG.jpg);
+}
+
+.one {
+    margin-bottom: 20px;
+}
+
+.two {
+    margin-bottom: 20px;
+}

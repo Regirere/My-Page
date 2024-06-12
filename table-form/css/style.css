@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+* {
+    font-family: 'Zen Antique Soft';
+    margin: 0px;
+    padding: 10px 0 10px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+    background-color: #5f7daf;
+    margin: auto;
+}
+
+table, th, td {
+    border: solid 1px rgb(82, 4, 4);
+    background-color: aliceblue;
+}
+
+input, select, textarea {
+    background-color: #d4f3ff;
+    border: 2px;
+}
+
+h1 {
+    text-align: center;
+    color: #186464;
+}
+
+form {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* tabel = table */
+
+.isi {
+    background-image: url(background.png);
+    background-size: cover;
+    border-radius: 50px;
+    border: 3px solid #eadb80;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.tabel {
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 75%;
+    background-color: #afafc7;
+    padding: 50px;
+    border-color: #8d007a;
+    border-style: double;
+    font-size: 20px;
+}
+
+.tabel table {
+    width: 75%;
+    border-style: double;
+    color: #55084b;
+}
+
+.tabel p {
+    line-height: 1px;
+    color: #186464;
+}
+
+.tabel h1, h2 {
+    line-height: 50px;
+    color: #186464;
+}
+
+/* otoiawase = form */
+
+.otoiawase {
+    background-color: #e2c3c8;
+    width: 75%;
+    padding-block: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: #8d007a;
+    border-style: double;
+    font-size: 25px;
+}
+
+.otoiawase h1 {
+    line-height: 50px;
+    color: #186464;
+}
+
+.otoiawase form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    line-height: 50px;
+}
+
+.otoiawase input {
+    width: 100%;
+    background-color: #d4f3ff;
+    color: #55084b;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.otoiawase {
+    color: #55084b;
+}
+
+option {
+    color: #55084b;
+}
